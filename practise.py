@@ -19,9 +19,20 @@
 #     i += 1
 
 #Print a list
-nums = [1,4,5,166,173,23,25,67,87]
+# nums = [1,4,5,166,173,23,25,67,87]
 
-idx = 0
-while idx < len(nums):
-    print(nums[idx])
-    idx += 1
+# idx = 0
+# while idx < len(nums):
+#     print(nums[idx])
+#     idx += 1
+
+nums_tuple = (1,4,5,166,173,23,25,67,87,166,166)
+
+i = 0
+x = 166
+while i < len(nums_tuple):
+    if(nums_tuple[i] == x):
+        print("Found at:",i)
+    else:
+        print("Finding...")
+    i+=1
